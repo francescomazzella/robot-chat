@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# Build output
+dist/
+*.log
+
+# Environment variables
+*.env
+
+# Docker files
+.dockerignore
+Dockerfile
+Containerfile
+compose.yaml
+entrypoint.sh
+
+# Local SSL certificates
+.local/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.DS_Store
